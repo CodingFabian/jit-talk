@@ -1,0 +1,13 @@
+
+Noch Mehr Flags!
+----------------
+
+ * -XX:+UnlockDiagnosticVMOptions
+ * -XX:+TraceClassLoading
+ * -XX:+LogCompilation
+ 
+ * -XX:+PrintAssembly (debug build!)
+ 
+ ** https://github.com/AdoptOpenJDK/jitwatch/wiki/Building-hsdis
+ 
+ 

@@ -1,0 +1,17 @@
+
+Interface Implementierung nur zur Laufzeit bekannt
+--------------------------------------------------
+
+ * JVM sucht zur IF Implementierung passenden Code
+
+ * 3 Strategien
+ ** 1 IF   -> direkter Aufruf
+ ** 2 IFs  -> If / Else Prüfung
+ ** 3 mehr -> Mapping
+
+ * Reflection machts nochmal komplizierter :-)
+
+ * Unmengen weitere Info
+ ** http://shipilev.net/blog/2015/black-magic-method-dispatch/
+
+ * InterfaceBenchmark*.java

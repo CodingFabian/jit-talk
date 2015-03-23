@@ -1,0 +1,11 @@
+
+Einmal Compiled == Immer Compiled?
+----------------------------------
+
+ * Profile Information veraltet
+
+ ** Counter Decay
+
+ * Spekulative Compiles
+
+ ** Decompile / Deoptimize via Traps

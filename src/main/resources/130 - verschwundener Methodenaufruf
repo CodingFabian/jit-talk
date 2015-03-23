@@ -1,0 +1,7 @@
+
+Der Fall des Verschwundenen Methodenaufrufs
+-------------------------------------------
+
+ * Manchmal sind Methodenaufrufe ganz weg
+ 
+ * Intrinsics.java

@@ -1,0 +1,11 @@
+
+Wie optimiert JIT?
+------------------
+
+"On Thursdays, they compile to the same thing.
+ On every full moon, they swap instruction sequences."
+ John Rose - Oracle JVM Architect (@JohnRose00)
+
+ * Optimierungen werden immer kombiniert
+
+ * In realen Anwendungen schwer vorhersagbar

@@ -1,0 +1,11 @@
+
+Inlining von Methoden und Werten
+--------------------------------
+
+ * Häufig angewandte und effektive Optimierung
+
+ * Constant Folding
+
+ * Call Site Inlining
+ 
+ * InlineBenchmark.java

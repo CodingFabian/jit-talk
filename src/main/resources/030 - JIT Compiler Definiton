@@ -1,0 +1,9 @@
+
+JIT Compiler
+------------
+
+ * Erfunden 1960 für LISP.
+
+ * Verwendet von modernen Runtimes für: Java, .net, JavaScript.
+
+ * Erstellt aus einem "Zwischencode" optimierten Endcode.

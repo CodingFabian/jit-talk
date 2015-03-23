@@ -1,0 +1,13 @@
+
+Compiler
+--------
+
+ * Präprozessoren / Codegeneratoren: z.B XDoclet
+
+ * javac - nutzen wir nur noch selten direkt
+
+ * JIT Compiler
+
+ ** C1 (client) - schnell, betrachtet wenig Code, startet ab 1.500 Aufrufen
+
+ ** C2 (server) - langsam, umfassende Analyse, startet ab 10.000 Aufrufen

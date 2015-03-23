@@ -1,0 +1,6 @@
+
+Quiz 2
+------
+
+ * Prüfung eines Registers gegen sich selbst.
+ * Wert < 0, == 0 oder > 0

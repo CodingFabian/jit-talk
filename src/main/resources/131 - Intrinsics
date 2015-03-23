@@ -1,0 +1,10 @@
+
+Intrinsics
+----------
+
+ * Methodenaufruf wird durch nativen Code ersetzt
+
+ * http://hg.openjdk.java.net/jdk9/hs-comp/hotspot/
+   file/c1a17f52db53/src/share/vm/classfile/vmSymbols.hpp#l632
+  
+ * IntrinsicsBenchmark.java

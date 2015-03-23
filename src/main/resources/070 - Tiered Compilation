@@ -1,0 +1,11 @@
+
+Tiered Compilation?
+-------------------
+
+ * Seit Java 7 -XX:+TieredCompilation
+
+ * Aktiviert C1 Compiler für -server VMs
+
+ * 4 Tiers (Stufen)
+ 
+ ** Interpretiert -> C1 (basic) -> C1 (profile) -> C1 + C2

@@ -1,0 +1,26 @@
+// Compiled from DeadCodeElimination.java (version 1.8 : 52.0, super bit)
+public class de.codecentric.DeadCodeElimination {
+  
+  // Field descriptor #5 Z
+  public static final boolean DEBUG = false;
+  
+  // Method descriptor #9 ()V
+  // Stack: 1, Locals: 1
+  public DeadCodeElimination();
+    0  aload_0 [this]
+    1  invokespecial java.lang.Object() [2]
+    4  return
+      Line numbers:
+        [pc: 0, line: 3]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: de.codecentric.DeadCodeElimination
+  
+  // Method descriptor #16 ([Ljava/lang/String;)V
+  // Stack: 0, Locals: 1
+  public static void main(java.lang.String[] args);
+    0  return
+      Line numbers:
+        [pc: 0, line: 10]
+      Local variable table:
+        [pc: 0, pc: 1] local: args index: 0 type: java.lang.String[]
+}

@@ -1,0 +1,9 @@
+
+Synchronized macht doch eh keiner
+---------------------------------
+
+ * Vector vs ArrayList
+ 
+ * StringBuffer vs StringBuilder
+ 
+ * Die unsynchronisierten machen trotzdem häufig Sinn

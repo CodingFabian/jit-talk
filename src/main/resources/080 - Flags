@@ -1,0 +1,13 @@
+
+Mehr Flags!
+-----------
+
+ * -XX:+UnlockDiagnosticVMOptions
+ * -XX:+PrintCompilation
+ * -XX:+PrintInlining
+
+ * -Xint
+ * -Xcomp
+ * -Xmixed
+
+ * java -XX:+PrintFlagsFinal -version | egrep "C1|C2"

@@ -1,0 +1,7 @@
+
+Aber C kann doch!
+-----------------
+
+ * gcc -O3 "Optimize yet more"
+
+ * JIT optimiert auf Laufzeitwerten!

@@ -1,0 +1,33 @@
+// Compiled from AutoBoxing.java (version 1.8 : 52.0, super bit)
+public class de.codecentric.AutoBoxing {
+  
+  // Method descriptor #9 ()V
+  // Stack: 1, Locals: 1
+  public AutoBoxing();
+    0  aload_0 [this]
+    1  invokespecial java.lang.Object() [1]
+    4  return
+      Line numbers:
+        [pc: 0, line: 3]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: de.codecentric.AutoBoxing
+  
+  // Method descriptor #16 ([Ljava/lang/String;)V
+  // Stack: 2, Locals: 2
+  public static void main(java.lang.String[] args);
+     0  bipush 42
+     2  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [2]
+     5  astore_1 [i]
+     6  getstatic java.lang.System.out : java.io.PrintStream [3]
+     9  aload_1 [i]
+    10  invokevirtual java.lang.Integer.toString() : java.lang.String [4]
+    13  invokevirtual java.io.PrintStream.println(java.lang.String) : void [5]
+    16  return
+      Line numbers:
+        [pc: 0, line: 6]
+        [pc: 6, line: 7]
+        [pc: 16, line: 8]
+      Local variable table:
+        [pc: 0, pc: 17] local: args index: 0 type: java.lang.String[]
+        [pc: 6, pc: 17] local: i index: 1 type: java.lang.Integer
+}

@@ -1,0 +1,54 @@
+// Compiled from StringBuilder.java (version 1.8 : 52.0, super bit)
+public class de.codecentric.StringBuilder {
+  
+  // Method descriptor #13 ()V
+  // Stack: 1, Locals: 1
+  public StringBuilder();
+    0  aload_0 [this]
+    1  invokespecial java.lang.Object() [1]
+    4  return
+      Line numbers:
+        [pc: 0, line: 3]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: de.codecentric.StringBuilder
+  
+  // Method descriptor #20 ([Ljava/lang/String;)V
+  // Stack: 2, Locals: 3
+  public static void main(java.lang.String[] args);
+     0  ldc <String ""> [2]
+     2  astore_1 [nums]
+     3  iconst_1
+     4  istore_2 [i]
+     5  iload_2 [i]
+     6  bipush 10
+     8  if_icmpge 36  [** Fabian's marker - Loop here :-) **]
+    11  new java.lang.StringBuilder [3]
+    14  dup
+    15  invokespecial java.lang.StringBuilder() [4]
+    18  aload_1 [nums]
+    19  invokevirtual java.lang.StringBuilder.append(java.lang.String) : java.lang.StringBuilder [5]
+    22  iload_2 [i]
+    23  invokevirtual java.lang.StringBuilder.append(int) : java.lang.StringBuilder [6]
+    26  invokevirtual java.lang.StringBuilder.toString() : java.lang.String [7]
+    29  astore_1 [nums]
+    30  iinc 2 1 [i]
+    33  goto 5  [** Fabian's marker - Loop here :-) **]
+    36  getstatic java.lang.System.out : java.io.PrintStream [8]
+    39  aload_1 [nums]
+    40  invokevirtual java.io.PrintStream.println(java.lang.String) : void [9]
+    43  return
+      Line numbers:
+        [pc: 0, line: 6]
+        [pc: 3, line: 7]
+        [pc: 11, line: 8]
+        [pc: 30, line: 7]
+        [pc: 36, line: 10]
+        [pc: 43, line: 12]
+      Local variable table:
+        [pc: 5, pc: 36] local: i index: 2 type: int
+        [pc: 0, pc: 44] local: args index: 0 type: java.lang.String[]
+        [pc: 3, pc: 44] local: nums index: 1 type: java.lang.String
+      Stack map table: number of frames 2
+        [pc: 5, append: {java.lang.String, int}]
+        [pc: 36, chop 1 local(s)]
+}

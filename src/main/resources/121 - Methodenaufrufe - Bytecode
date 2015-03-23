@@ -1,0 +1,12 @@
+
+Aufruf einer Interface-Methode
+------------------------------
+
+    18  aload_2 [shape]
+-> Laden der Shape auf den Stack
+
+    19  invokeinterface d.c.i.Shape.getPoints() : int [45] [nargs: 1]
+-> Aufruf der Interfacemethode
+
+    24  istore_3 [points]
+-> Speichern des Ergebnisses

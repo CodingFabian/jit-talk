@@ -1,0 +1,11 @@
+
+Wie funktionieren eigentlich Methodenaufrufe?
+---------------------------------------------
+
+ * invokevirtual / invokeinterface
+ 
+ * Referenz auf den Methodencode
+ 
+ * Wo ist der Methodencode?
+ 
+ * InterfaceDemo.java

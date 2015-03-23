@@ -1,0 +1,11 @@
+
+Was kostet ein Methodenaufruf?
+------------------------------
+
+ * Laden von Paramter Werten
+
+ * Erstellung eines "Stack Frames"
+
+ * Methodencode suchen
+ 
+ * InlineControlBenchmark.java
