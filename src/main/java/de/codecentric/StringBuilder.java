@@ -4,7 +4,7 @@ public class StringBuilder {
   public static void main(String[] args) {
 
     String nums = "";
-    for (int i = 1; i < 10; i++) {
+    for (int i = 1; i < 1000; i++) {
       nums += i;
     }
     System.out.println(nums);
