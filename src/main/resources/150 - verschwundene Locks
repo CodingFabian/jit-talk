@@ -2,6 +2,6 @@
 Der Fall des Verschwundenen Locks
 ---------------------------------
 
- * Manchmal sind Objekte ganz weg
+ * Manchmal sind Locks ganz weg
  
  * LockElisionBenchmark.java
