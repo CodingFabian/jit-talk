@@ -2,8 +2,10 @@
 Wir wollen JIT sehen!
 ---------------------
 
- * Trotz Flags schwierig
+ * JIT verändert keinen Bytecode
+ 
+ * JIT generierte verschiedene Assemblercodevarianten
 
- * Selbst Assemblercode unklar
+ * Beobachtung trotz Flags schwierig
 
  * Performance Effekte beobachtbar
