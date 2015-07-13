@@ -6,4 +6,4 @@ Der Fall des Verschwundenen Objekts
  
  * Escape Analysis
 
- * OnStackAllocation.java
+ * AllocationAvoidance.java

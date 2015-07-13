@@ -3,12 +3,12 @@ package de.codecentric;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class OnStackAllocation {
+public class AllocationAvoidance {
 
   public static volatile boolean go = true;
 
   public static void main(String[] args) {
-    System.out.println("You want to learn about OnStackAllocation?");
+    System.out.println("You want to learn about AllocationAvoidance?");
     System.out.println("Run with -verbose:gc -Xmx10M");
     monitorObjectCreation();
     long sumOfAllX = 0;

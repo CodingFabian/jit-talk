@@ -1,0 +1,9 @@
+
+Objektfelder auf dem Stack
+--------------------------
+
+ * Es gibt keine Objekte
+ 
+ * Felder werden im Stack gespeichert
+
+ * Objektoperationen verhindern die Optimierung
